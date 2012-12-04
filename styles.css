@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0b1 | 201101
-   NOTE: WORK IN PROGRESS
-   USE WITH CAUTION AND TEST WITH ABANDON */
 
 
 html, body, div, span, applet, object, iframe,
@@ -34,6 +30,9 @@ body {
 }
 ol, ul {
     list-style: none;
+    margin-bottom: 50px;
+    background-color: none;
+    
 }
 blockquote, q {
     quotes: none;
@@ -63,9 +62,9 @@ table {
 body {
 	font-size: 14px;
 	font-family: Arial, sans-serif;
-	color: #666;
+	color: black;
 	
-	background-color: gray;
+	background-color: #DADADA;
 }
 p {
 	font-size: 1em;
@@ -87,7 +86,7 @@ h1 {
 	
 	color: black;
 	
-    font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 }
 
 h3 {
@@ -95,7 +94,7 @@ h3 {
 	font-weight: bold;
 	line-height: 1.3em;
 	margin: 0 0 .5em 0;
-	color: #40bfe8;
+	color: black;
 	letter-spacing: -0.07em;
 }
 
@@ -118,7 +117,7 @@ img {
 }
 
 header { 
-	padding: 2em 2em 0;
+	
 }
 
 section {
@@ -157,7 +156,8 @@ hr {
 
 .nav-container { 
     width:100%;margin-right:-2em; 
-    background-color: gray;
+    background-color: #DADADA;
+
 }
 
 nav {
@@ -230,7 +230,7 @@ nav li a.selected {
 	-webkit-animation:thedrop 1s 1;
 }
 
-.sticky .nav-above {
+/*.sticky .nav-above {
 	position: absolute;
 	top:-15px;
 	left:1em;
@@ -239,7 +239,7 @@ nav li a.selected {
 	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 80%);
 	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-}
+}*/
     
 /*media queries*/  
 
@@ -305,10 +305,12 @@ nav li a.selected {
   	}     
 
 header {
-    background-color: gray;
+    background-color: #DADADA;
+
 }
 #slide {
-    background-color: gray;
+    background-color: #DADADA;
+
 }
 
 
@@ -367,11 +369,25 @@ filter:alpha(opacity=70);
 }
 #prevNext {
     text-align: center;
+    position: absolute;
 
 }
 
 .yo {
     border-right: 1px solid black;
+}
+
+
+
+/*section*/
+
+.work {
+  background-color: #F7C628;
+}
+
+#tibet {
+  max-height: 330px;
+  min-width: 960px;
 }
 
 
