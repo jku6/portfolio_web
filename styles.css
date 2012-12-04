@@ -2,7 +2,8 @@
    v2.0b1 | 201101
    NOTE: WORK IN PROGRESS
    USE WITH CAUTION AND TEST WITH ABANDON */
- 
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -83,7 +84,7 @@ a:hover {
 h1 {
 	font-size: 6em;
 	font-weight: bold;
-	margin: 0 0 .3em 0;
+	
 	color: #40bfe8;
 	letter-spacing: -0.07em;
 }
@@ -154,8 +155,8 @@ hr {
 .column.right { padding-left: 1em }
 
 .nav-container { 
-    margin-bottom: 2em; width:100%;margin-right:-2em; 
-    background-color: none;
+    width:100%;margin-right:-2em; 
+    background-color: gray;
 }
 
 nav {
@@ -307,4 +308,73 @@ header {
 #slide {
     background-color: gray;
 }
+
+
+
+/*Wrap*/
+
+
+
+#wrap .hidden
+{
+display: none;
+}
+
+#wrap #prevNext
+{
+margin-bottom: -2.5em;
+}
+
+#wrap #prevNext img
+{
+position: relative;
+z-index: 2;
+cursor: pointer;
+text-align: center;
+margin-bottom: 40px;
+margin-top: 80px;
+}
+
+
+
+#wrap p
+{
+
+padding: 0 1em;
+font-size: 1.5em;
+position: relative;
+top: -80px;
+line-height: 50px;
+height: 60px;
+max-width: 960px;
+background: black;
+opacity: .7;
+filter:alpha(opacity=70);
+}
+#wrap  #pho{
+    width: 960px;
+    border
+}
+
+#wrap #slides {
+    margin: auto;
+    width: 900px;
+}
+#slide {
+    padding: 0 2em 1em;
+}
+#prevNext {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
  
