@@ -83,10 +83,11 @@ a:hover {
 
 h1 {
 	font-size: 6em;
-	font-weight: bold;
 	
-	color: #40bfe8;
-	letter-spacing: -0.07em;
+	
+	color: black;
+	
+    font-family: 'Lobster', cursive;
 }
 
 h3 {
@@ -167,7 +168,7 @@ nav {
 	box-sizing: border-box;
 	
 	width: 960px;
-	padding: 1em 3em;
+	
     background-color: none;
 	
 	
@@ -202,8 +203,9 @@ nav li a {
 nav li a:hover,
 nav li a.selected {
 	color: #fff;
-	background: #40bfe8;
+	background: black;
 }
+
 
  
 /*clearfix*/    
@@ -358,14 +360,18 @@ filter:alpha(opacity=70);
 
 #wrap #slides {
     margin: auto;
-    width: 900px;
+    width: 960px;
 }
 #slide {
-    padding: 0 2em 1em;
+    text-align: center;
 }
 #prevNext {
     text-align: center;
 
+}
+
+.yo {
+    border-right: 1px solid black;
 }
 
 
