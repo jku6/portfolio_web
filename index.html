@@ -3,7 +3,7 @@
 <head>
  
 	<meta charset="utf-8">
-	<title>The Wonder of Waypoints</title>
+	<title>Jonathan Ku</title>
 	<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
 	<script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
 	<script src="js/waypoints.min.js" type="text/javascript"></script>
@@ -20,6 +20,7 @@
 	<!--css-->
 	<link rel="stylesheet" href="styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
  
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -45,10 +46,10 @@
 	 
 				<ul>
 			 
-					<li class="yo"><a href="#chapter-1">About</a></li>
-					<li class="yo"><a href="#chapter-2">Work</a></li>
-					<li class="yo"><a href="#chapter-3">Contact</a></li>
-					<li><a href="#chapter-0">Home</a></li>
+					<li class="yo"><a href="#chapter-1">ABOUT</a></li>
+					<li class="yo"><a href="#chapter-2">WORK</a></li>
+					<li class="yo"><a href="#chapter-3">CONTACT</a></li>
+					<li><a href="#chapter-0">HOME</a></li>
 					
 			 
 				</ul>
@@ -72,14 +73,15 @@
 				</div>
 				
 				<div id="prevNext">
-					<img src="img/arrow_left2.png" alt="Previous Tab" class="jFlowPrev" />
-					<img src="img/arrow_right2.png" alt="Next Tab" class="jFlowNext" />
+					<img src="img/arrow_left2.png" alt="Previous Tab" class="jFlowPrev" id= "pvleft" />
+					<img src="img/arrow_right2.png" alt="Next Tab" class="jFlowNext" id="pvright" />
 				</div>
 				
+				
 				<div id="slides">
-					<div id="pho"><img src="img/1.jpg" alt="photo" /><p>This is photo number one. Neato!</p></div>
-					<div id="pho"><img src="img/2.jpg" alt="photo" /><p>This is photo number two. Neato!</p></div>
-					<div id="pho"><img src="img/3.jpg" alt="photo" /><p>This is photo number three. Neato!</p></div>
+					<div class="pho"><img src="img/1.jpg" alt="photo" /><p>This is photo number one. Neato!</p></div>
+					<div class="pho"><img src="img/2.jpg" alt="photo" /><p>This is photo number two. Neato!</p></div>
+					<div class="pho"><img src="img/3.jpg" alt="photo" /><p>This is photo number three. Neato!</p></div>
 				</div>
 				
 			</div><!-- end wrap -->
@@ -90,29 +92,34 @@
 		
 				
 
-			<div class="column left">
+			<div class="column left" id="about_left">
 					
 				<h3>About</h3>
-				<p>You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter. That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth. That is nothing. I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary. Aunt Polly&mdash;Tom's Aunt Polly, she is&mdash;and Mary, and the Widow Douglas is all told about in that book, which is mostly a true book, with some stretchers, as I said before.</p>
+				<p>Hello, my name is Jonathan Ku.  I am currently an aspiring full stack software developer.  This year I joined General Assembly's Web Development Immersive program where my fellow hackers and I spend 10 hours a day for 9 weeks, learning the whole development stack from rails to HTML.  Please spend some time to look at the projects I have been working on.</p>
 					
 			</div><!--end column-->
 
-			<div class="column right">
+			<div class="column right" id="about_right">
 			
-				<p>Now the way that the book winds up is this:  Tom and me found the money that the robbers hid in the cave, and it made us rich.  We got six thousand dollars apiece—all gold.  It was an awful sight of money when it was piled up.  Well, Judge Thatcher he took it and put it out at interest, and it fetched us a dollar a day apiece all the year round—more than a body could tell what to do with.  The Widow Douglas she took me for her son, and allowed she would sivilize me; but it was rough living in the house all the time, considering how dismal regular and decent the widow was in all her ways; and so when I couldn't stand it no longer I lit out.</p>
+				<img id="comp" src="img/HTML5.png" alt="Jonathan Ku" />
+				<img id="comp" src="img/css.png" alt="Jonathan Ku" />
+				<img id="comp" src="img/jquery.png" alt="Jonathan Ku" />
+				<img id="comp" src="img/rails.png" alt="Jonathan Ku" />
+				<img id="comp" src="img/AJAX.png" alt="Jonathan Ku" />
 					
 			</div><!--end column-->
 			
-			<hr />
+			<div class="clear">
+			</div>
 			
 		</section>
 		
 		<section id="chapter-2" class="work">
 		
 			
-			<h3>Work</h3>
-			<div class="column left">
-					
+			
+			<div class="column left" id="work_left">
+				<h3>Front End</h3>
 				<p>I got into my old rags and my sugar-hogshead again, and was free and satisfied.  But Tom Sawyer he hunted me up and said he was going to start a band of robbers, and I might join if I would go back to the widow and be respectable.  So I went back.</p>
 
 				<p>The widow she cried over me, and called me a poor lost lamb, and she called me a lot of other names, too, but she never meant no harm by it. She put me in them new clothes again, and I couldn't do nothing but sweat and sweat, and feel all cramped up.  Well, then, the old thing commenced again.  The widow rung a bell for supper, and you had to come to time. </p>
@@ -120,8 +127,8 @@
 					
 			</div><!--end column-->
 
-			<div class="column right">
-			
+			<div class="column right" id="work_right">
+			<h3>Back End</h3>
 				<p>When you got to the table you couldn't go right to eating, but you had to wait for the widow to tuck down her head and grumble a little over the victuals, though there warn't really anything the matter with them,—that is, nothing only everything was cooked by itself. In a barrel of odds and ends it is different; things get mixed up, and the juice kind of swaps around, and the things go better.</p>
 				
 				<p>After supper she got out her book and learned me about Moses and the Bulrushers, and I was in a sweat to find out all about him; but by and by she let it out that Moses had been dead a considerable long time; so then I didn't care no more about him, because I don't take no stock in dead people.</p>
@@ -129,11 +136,13 @@
 			</div><!--end column-->
 			
 			
-			
+			<div class="clear">
+			</div>
+
 		</section>
-			<img id="tibet" src="img/6gray.jpg" alt="http://christinewisnieski.com/Brody-Charlie" /><!--http://christinewisnieski.com/Brody-Charlie-->
+			
 		<section id="chapter-3">
-		
+		<img id="tibet" src="img/6gray.jpg" alt="Jonathan Ku" />
 			
 			<h3>Contact</h3>
 			<div class="column left">
@@ -159,7 +168,7 @@
 				
 		<footer>
 			
-			<li><a href="#home" id="#homebutton">home</a></li>
+			<p><a href="#home" id="#homebutton">home</a></p>
 			<hr />
 			
 			<p>Copyright &copy; <a href="http://webdesign.tutsplus.com">Webdesigntuts+</a> 2012</p>
