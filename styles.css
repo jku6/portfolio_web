@@ -6,9 +6,13 @@ footer, header, hgroup, menu, nav, section {
 }
 
 header {
-  padding-left: 15px;
   padding-right: 6px;
 }
+header h1 {
+  padding-left: 55px;
+}
+
+
 ol, ul {
     list-style: none;
     padding-bottom: 80px;
@@ -46,12 +50,12 @@ body {
 	font-size: 14px;
 	font-family: 'Hammersmith One', sans-serif;
 	color: #3f3d32;
-	
+	margin: 0px;
 	background-color: #DADADA;
 }
 p {
 	font-size: 11px;
-	line-height: 1.5em;
+	
 	
 }
 
@@ -83,6 +87,7 @@ h3 {
 
 img {
 	max-width: 100%;
+
 	margin-bottom: 1em
 }
 
@@ -101,10 +106,7 @@ img {
 
 
 
-footer {
-	padding: 1em;
-	font-size: 0.9em;
-}
+
 
 hr {
 	width: 100%;
@@ -326,16 +328,18 @@ margin-top: 80px;
 padding: 0 1em;
 font-size: 1.5em;
 position: relative;
-top: -80px;
+top: -60px;
 line-height: 50px;
-height: 60px;
+height: 20px;
 max-width: 960px;
 background: black;
-opacity: .7;
+opacity: .6;
 filter:alpha(opacity=70);
+
 }
 #wrap  #pho{
     width: 960px;
+
     
 }
 
@@ -384,6 +388,8 @@ filter:alpha(opacity=70);
 #tibet {
   max-height: 300px;
   min-width: 960px;
+  opacity: .85;
+  
 }
 
 .clear {
@@ -391,35 +397,45 @@ filter:alpha(opacity=70);
 }
 
 #about_left {
-  padding: 15px;
+  padding: 30px;
   padding-bottom: 5px;
   border-right: 1px solid gray;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   padding-top: 30px;
 
 }
 #about_left h3 {
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+}
+#about_left p {
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 #about_right {
-  padding: 15px;
+  padding: 30px;
   padding-bottom: 15px;
   text-align: center;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 #work_left {
-  padding: 15px;
+  padding: 20px;
   padding-bottom: 5px;
   border-right: 1px solid white;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
 
 
 }
 #work_right {
-  padding: 15px;
+  padding: 20px;
   padding-bottom: 5px;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
 
 }
 
@@ -431,6 +447,139 @@ filter:alpha(opacity=70);
   margin: 3px;
 
 }
+
+
+
+
+
+
+#end {
+    
+
+    /*-webkit-transition: margin 0.5s ease-out; -moz-transition: margin 0.5s ease-out; -o-transition: margin 0.5s ease-out;*/
+    border: 2px solid #ccc;
+    opacity: 1;
+      transition: opacity .25s ease-in-out;
+      -moz-transition: opacity .25s ease-in-out;
+      -webkit-transition: opacity .25s ease-in-out;
+   
+ }
+ #end:hover {
+     
+     opacity: .55;
+     
+     
+        
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact_left {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 35px;
+  padding-right: 0px;
+  
+}
+
+
+.contact {
+  text-align: center;
+}
+
+#contact_right {
+  padding-bottom: 30px;
+  
+  
+}
+
+
+
+
+          
+          .contact #contact_right .sprites ul li {
+               padding: 5px 5px 5px 0px; 
+               float: left;
+          }
+
+
+          .contact #contact_right .sprites ul li a {
+               margin: 5px;
+               width: 32px;
+               height: 32px;
+               display: block; 
+               text-indent: 100%;
+               white-space: nowrap;
+               overflow: hidden;
+              
+          }
+
+               .contact #contact_right .sprites ul li.linkedin a {
+                    
+                    background: url('img/spritegray.png');
+
+                    
+               
+               }
+
+               .contact #contact_right .sprites ul li.twitter a {
+                   
+                    background: url('img/spritegray.png');
+                    background-position: 0px -64px;
+                    
+               
+               }
+
+               .contact #contact_right .sprites ul li.facebook a {
+                    
+                    background: url('img/spritegray.png');
+                    background-position: 0px -32px;
+               
+               }
+
+
+               .contact #contact_right .sprites ul li.linkedin a:hover {
+                    background: url('img/sprite.png');
+               }
+
+               .contact #contact_right .sprites ul li.twitter a:hover {
+                    background: url('img/sprite.png');
+                    background-position: 0px -64px;
+               }
+
+               .contact #contact_right .sprites ul li.facebook a:hover {
+                    background: url('img/sprite.png');
+                    background-position: 0px -32px;
+               }
+
+
+footer {
+  padding: 1em;
+  font-size: 0.9em;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+
 
 
 
