@@ -174,7 +174,8 @@ nav li a {
 	font-weight: bold;
 	display: inline-block;
 	width: 5em; text-align: center;
-	padding: .5em 1em;
+  padding: 20px;
+
 	
 	-webkit-border-radius: 1px;
 	-moz-border-radius: 1px;
@@ -185,6 +186,7 @@ nav li a:hover,
 nav li a.selected {
 	color: #fff;
 	background: black;
+  padding: 20px;
 
 }
 
@@ -319,7 +321,7 @@ z-index: 2;
 cursor: pointer;
 text-align: center;
 margin-bottom: 40px;
-margin-top: 80px;
+margin-top: 100px;
 }
 
 
@@ -330,12 +332,12 @@ margin-top: 80px;
 padding: 0 1em;
 font-size: 1.5em;
 position: relative;
-top: -60px;
-line-height: 50px;
+top: -50px;
+line-height: 30px;
 height: 20px;
 max-width: 960px;
 background: black;
-opacity: .6;
+opacity: .55;
 filter:alpha(opacity=70);
 
 }
@@ -371,10 +373,7 @@ filter:alpha(opacity=70);
 
 
 
-.yo {
-    border-right: 1px solid black;
 
-}
 
 
 
@@ -390,7 +389,7 @@ filter:alpha(opacity=70);
 #tibet {
   max-height: 300px;
   min-width: 960px;
-  opacity: .85;
+ 
   
 }
 
@@ -540,15 +539,12 @@ filter:alpha(opacity=70);
                     
                     background: url('img/spritegray.png');
 
-                    
-               
                }
 
                .contact #contact_right .sprites ul li.twitter a {
                    
                     background: url('img/spritegray.png');
                     background-position: 0px -64px;
-                    
                
                }
 
@@ -558,6 +554,10 @@ filter:alpha(opacity=70);
                     background-position: 0px -32px;
                
                }
+               .contact #contact_right .sprites ul li.github a {
+                    background: url('img/github_icon.png');
+               }
+
 
 
                .contact #contact_right .sprites ul li.linkedin a:hover {
@@ -572,6 +572,9 @@ filter:alpha(opacity=70);
                .contact #contact_right .sprites ul li.facebook a:hover {
                     background: url('img/sprite.png');
                     background-position: 0px -32px;
+               }
+               .contact #contact_right .sprites ul li.github a:hover {
+                    background: url('img/github_icongray.png');
                }
 
 
