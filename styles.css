@@ -49,8 +49,10 @@ table {
 body {
 	font-size: 14px;
 	/*font-family: 'Hammersmith One', sans-serif;*/
-  /*font-family: 'Comfortaa', cursive;*/
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Comfortaa', cursive;*/
+  /*font-family: 'Source Code Pro', sans-serif;*/
+  font-family: 'Inder', sans-serif;
+  
 	color: #3f3d32;
 	margin: 0px;
 	background-color: #DADADA;
@@ -322,6 +324,9 @@ cursor: pointer;
 text-align: center;
 margin-bottom: 40px;
 margin-top: 100px;
+background-color: #DADADA;
+opacity: .6;
+border-radius: 100px;
 }
 
 
