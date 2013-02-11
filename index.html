@@ -12,12 +12,16 @@
 	<script src="js/flow.js" type="text/javascript"></script>
 
 	<meta name="description" content=" ">
-	<meta name="author" content=" ">
+	<meta name="author" content="Jonathan Ku">
+	<meta name="keywords" content="jonathan, ku, jonathan ku, designer, photographer, developer, resume, portfolio, ruby, rails, pics, photos, northeastern university, boston, taiwan, china, new york, html5, css3, front end, back end, san francisco, bay area, finance">
+  <link rel="shortcut icon" href="img/favicon.ico" >
  
 	<!--Mobile specific meta goodness :)-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
  
 	<!--css-->
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
@@ -35,111 +39,72 @@
  
 </head>
 <body id="chapter-0">
- 
 	<div class="wrapper">
-		
 		<header>
-		
 			<h1>Jku</h1>
-		
-		
-		
-		<div class="nav-container">
-		
-			<nav>
-	 
-				<ul>
-			 
-					<li class="yo"><a href="#chapter-1">ABOUT</a></li>
-					<li class="yo"><a href="#chapter-2">WORK</a></li>
-					<li class="yo"><a href="#chapter-3">CONTACT</a></li>
-					<li><a href="#chapter-0">HOME</a></li>
-					
-			 
-				</ul>
-				
-				
-			 
-			</nav>
-		
-		</div>
-
+			<div class="nav-container">
+				<nav>
+					<ul>	 
+						<li class="yo"><a href="#chapter-1">ABOUT</a></li>
+						<li class="yo"><a href="#chapter-2">WORK</a></li>
+						<li class="yo"><a href="#chapter-3">CONTACT</a></li>
+						<li><a href="#chapter-0">HOME</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-
-
 		<div id="slide">
 			<div id="wrap">
-
 				<div id="controller" class="hidden">
 					<span class="jFlowControl">No 1</span>
 					<span class="jFlowControl">No 2</span>
 					<span class="jFlowControl">No 3</span>
 				</div>
-				
 				<div id="prevNext">
 					<img src="img/arrow_left2.png" alt="Previous Tab" class="jFlowPrev" id= "pvleft" />
 					<img src="img/arrow_right2.png" alt="Next Tab" class="jFlowNext" id="pvright" />
 				</div>
-				
-				
 				<div id="slides">
 					<div class="pho"><img id="tibet" src="img/greece1.png" alt="photo" /><p></p></div>
 					<div class="pho"><img id="tibet" src="img/barcelona1.png" alt="photo" /><p></p></div>
 					<div class="pho"><img id="tibet" src="img/venice2.png" alt="photo" /><p></p></div>
 				</div>
-				
 			</div><!-- end wrap -->
 		</div>
-
-
+		<div class="clear">
+			</div>
 		<section id="chapter-1">
-		
-				
-
 			<div class="column left" id="about_left">
-					
 				<h3>About</h3>
 				<p>Hello, my name is Jonathan Ku.  I am currently an aspiring full stack software developer.  This year I joined General Assembly's Web Development Immersive program where my fellow hackers and I spend 10 hours a day for 9 weeks, learning the whole development stack from rails to HTML.  Please spend some time to look at the projects I have been working on.</p>
-					
 			</div><!--end column-->
-
 			<div class="column right" id="about_right">
-			
 				<img id="comp" src="img/HTML5.png" alt="Jonathan Ku" />
 				<img id="comp" src="img/css.png" alt="Jonathan Ku" />
 				<img id="comp" src="img/jquery.png" alt="Jonathan Ku" />
 				<img id="comp" src="img/rails.png" alt="Jonathan Ku" />
-				<img id="comp" src="img/AJAX.png" alt="Jonathan Ku" />
-					
+				<img id="comp" src="img/AJAX.png" alt="Jonathan Ku" />	
 			</div><!--end column-->
-			
 			<div class="clear">
 			</div>
-			
 		</section>
 		
 		<section id="chapter-2" class="work">
-		
-			
-			
 			<div class="column left" id="work_left">
 				<h3>Front End</h3>
 				<a href="http://67.207.129.100/wdi2/jonathank/jinterest/" target="_blank"><img id="end" src="img2/jinterest.png" alt="Jonathan Ku" /></a>
 				<a href="http://67.207.129.100/wdi2/jonathank/color-next/template.html" target="_blank"><img id="end" src="img2/color-next.png" alt="Jonathan Ku" /></a>
 				<a href="http://67.207.129.100/wdi2/jonathank/flashing/template.html" target="_blank"><img id="end" src="img2/flashing.png" alt="Jonathan Ku" /></a>
 				<a href="http://67.207.129.100/wdi2/jonathank/memory-jon/template.html" target="_blank"><img id="end" src="img2/memory.png" alt="Jonathan Ku" /></a>
-				
-					
 			</div><!--end column-->
 
 			<div class="column right" id="work_right">
-			<h3>Back End</h3>
+				<h3>Back End</h3>
 				<a href="http://sleepy-lake-6222.herokuapp.com/" target="_blank"><img id="end" src="img2/subway.png" alt="Jonathan Ku" /></a>
 				<a href="http://damp-lowlands-4387.herokuapp.com/" target="_blank"><img id="end" src="img2/datester.png" alt="Jonathan Ku" /></a>
 				<a href="http://secret-hollows-6715.herokuapp.com/" target="_blank"><img id="end" src="img2/foodee.png" alt="Jonathan Ku" /></a>
-					
+				<a href="http://ancient-hamlet-9761.herokuapp.com/" target="_blank"><img id="end" src="img2/bizshout.png" alt="Jonathan Ku" /></a>
 			</div><!--end column-->
-			
 			
 			<div class="clear">
 			</div>
@@ -147,54 +112,42 @@
 		</section>
 			
 		<section id="chapter-3" class="contact">
-		<img id="tibet" src="img/tibetlong.png" alt="Jonathan Ku" />
-			
+			<img id="tibet" src="img/tibetlong.png" alt="Jonathan Ku" />
 			<h3>Contact</h3>
-			
-
-					
-			
-			
-			
 
 			<div class="column right" id="contact_right">
 
 			<div class="clear">
-						</div>
-			<div id="email">Email: jonathanku88(at)gmail</div>
-			
+			</div>
+
+			<div id="email">Email: jonathanku88@gmail.com</div>
 				<div class="sprites">
 					<ul>
              <li class="linkedin"><a href="http://www.linkedin.com/pub/jonathan-ku/10/529/926" target="_blank">LinkedIn</a></li>
              <li class="twitter"><a href="https://twitter.com/thejonku" target="_blank">Twitter</a></li>
              <li class="facebook"><a href="http://www.facebook.com/ku.jonathan" target="_blank">Facebook</a></li>
-             <li class="github"><a href="https://github.com/jku6" target="_blank">Github</a></li>
-                				
+             <li class="github"><a href="https://github.com/jku6" target="_blank">Github</a></li>     				
 					</ul>
 				</div>	
 
-						<div class="clear">
-						</div>
+				<div class="clear">
+				</div>
 					
 			</div><!--end column-->
 			
-			<div class="clear">
-			</div>
+				<div class="clear">
+				</div>
 			
 		</section>
 		
-		
 		<footer>
-			
 			
 			<div class="clear">
 			</div>
-			
 			<p>Copyright &copy; JKU Inc 2012</p>
 		
 		</footer>
 	
 	</div>
-	
 </body>
 </html>
